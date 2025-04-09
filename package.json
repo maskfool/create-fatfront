@@ -23,6 +23,7 @@
   "author": "Shubham",
   "license": "MIT",
   "dependencies": {
+    "@fontsource/press-start-2p": "^5.2.5",
     "chalk": "^5.4.1",
     "inquirer": "^12.5.2"
   }
