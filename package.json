@@ -1,6 +1,6 @@
 {
   "name": "create-fatfront",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A CLI to scaffold a React + Vite + Tailwind v4 + React Router DOM starter project.",
   "bin": {
     "create-fatfront": "index.js"
