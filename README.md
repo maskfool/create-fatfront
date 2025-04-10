@@ -1,6 +1,6 @@
 # 🚀 create-fatfront
 
-**A modern CLI to scaffold React + Vite + Tailwind CSS v4 projects in seconds.**
+**A modern CLI to scaffold React + Vite + Tailwind CSS v4 + React router DOM projects in seconds.**
 
 
 ---
