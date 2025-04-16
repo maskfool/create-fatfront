@@ -12,7 +12,7 @@
 - 🔀 **React Router DOM** setup out of the box
 - 🛠️ Auto-generates clean, minimal boilerplate
 - 📦 Optionally supports `npm`, `pnpm`, and `bun` (coming soon)
-- 💻 Easy to extend with TypeScript (planned)
+- 💻 Easy to extend with TypeScript Added
 
 ---
 
