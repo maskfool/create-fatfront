@@ -38,8 +38,18 @@ if (!projectName) {
   projectName = answer.name.trim();
 }
 
+// Prompt user to choose between Vite + JavaScript or Vite + TypeScript
+const { templateChoice } = await inquirer.prompt([
+  {
+    type: "list",
+    name: "templateChoice",
+    message: "Which template would you like to use?",
+    choices: ["Vite + JavaScript", "Vite + TypeScript"],
+  },
+]);
+
 const targetPath = path.join(process.cwd(), projectName);
-const templatePath = path.join(__dirname, "template");
+const templatePath = path.join(__dirname, "template", templateChoice === "Vite + JavaScript" ? "vite-js" : "vite-ts");
 
 fs.mkdirSync(targetPath, { recursive: true });
 

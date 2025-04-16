@@ -1,6 +1,6 @@
 {
   "name": "create-fatfront",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A CLI to scaffold a React + Vite + Tailwind v4 + React Router DOM starter project.",
   "bin": {
     "create-fatfront": "index.js"
@@ -26,5 +26,9 @@
     "@fontsource/press-start-2p": "^5.2.5",
     "chalk": "^5.4.1",
     "inquirer": "^12.5.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.30.1",
+    "@typescript-eslint/parser": "^8.30.1"
   }
 }
